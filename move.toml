@@ -1,0 +1,15 @@
+[package]
+name = "VotingSystem"
+version = "1.0.0"
+authors = []
+
+[addresses]
+GamingPlatform = "0xc6385852e9934e06776e276d2281863bbd25941e2626ff6e90f0a97e6d920adb"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
